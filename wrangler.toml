@@ -4,12 +4,12 @@ compatibility_date = "2025-03-15"
 
 kv_namespaces = [
     # 注意：将下面的 id 替换为你自己拷贝的 KV 命名空间 id 才能正常使用！
-    { binding = "SHORT_URLS", id = "9edc3d9387724fbfbc20407080128691" },
+    { binding = "KV_BINDING", id = "9edc3d9387724fbfbc20407080128691" },
 ]
 
 [env.dev]
 kv_namespaces = [
-    { binding = "SHORT_URLS", id = "9edc3d9387724fbfbc20407080128691" },
+    { binding = "KV_BINDING", id = "9edc3d9387724fbfbc20407080128691" },
 ]
 
 [env.dev.triggers]
